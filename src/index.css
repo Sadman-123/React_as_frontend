@@ -1,0 +1,32 @@
+.cont{
+    display: flex;
+    justify-content: center;
+}
+.app{
+    text-align: center;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+    padding: 10px;
+    width: 600px;
+    border-radius: 34px;
+    background-color: rgb(250, 236, 37);
+    box-shadow: 0 0 10px gray;
+}
+.app .logo i{
+    font-size: 3em;
+    color: black;
+}
+.app .logo i#react{
+    font-size: 3em;
+    color: #61DBFB; 
+    animation: spin 2s linear infinite;
+}
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
